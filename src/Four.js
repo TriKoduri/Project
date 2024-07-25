@@ -5,7 +5,7 @@ function Four(){
             <h1>List of fruits</h1>
             <ul>
                 {
-                fruits.map((fruit,index) => (
+                fruits.map((fruit,index)  =>(
                 <li key={index}>{fruit}</li>
                 ))
                 }
